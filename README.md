@@ -14,7 +14,7 @@ $$ m_{tot} = {\sum_{i}^{N}}{m_{i}^{solute}}+{\sum_{j}^{M}}{m_{j}^{solvent}} = {\
 
 根据质量百分浓度的定义，对于溶质$i$，有${\omega_{i}^{solute}} = \frac{m_{i}^{solute}}{m_{tot}}$，那么我们就可以得到下列方程组
 
-![微信截图_20210407200549](https://user-images.githubusercontent.com/53797732/113863863-c3e38800-97dc-11eb-8d43-74a9794c446a.png)
+![微信截图_20210407200946](https://user-images.githubusercontent.com/53797732/113864241-3f453980-97dd-11eb-9227-ba17abd54427.png)
 
 把上面的方程组写成向量形式，则有
 
