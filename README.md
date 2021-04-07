@@ -15,5 +15,5 @@ $$ m_{tot} = {\sum_{i}^{N}}{m_{i}^{solute}}+{\sum_{j}^{M}}{m_{j}^{solvent}} = {\
 根据质量百分浓度的定义，对于溶质$i$，有${\omega_{i}^{solute}} = \frac{m_{i}^{solute}}{m_{tot}}$，那么我们就可以得到下列方程组
 
 $$\begin{cases}
-\{m}_{1}^{solute} = {\omega_{1}^{solute}}({\sum_{1}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent}) \\
+m_{1}^{solute} = {\omega_{1}^{solute}}({\sum_{1}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent}) \\
 \end{cases}$$
