@@ -14,54 +14,15 @@ $$ m_{tot} = {\sum_{i}^{N}}{m_{i}^{solute}}+{\sum_{j}^{M}}{m_{j}^{solvent}} = {\
 
 根据质量百分浓度的定义，对于溶质$i$，有${\omega_{i}^{solute}} = \frac{m_{i}^{solute}}{m_{tot}}$，那么我们就可以得到下列方程组
 
-$$\begin{cases}
-m_{1}^{solute} = {\omega_{1}^{solute}}({\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent}) \\
-m_{2}^{solute} = {\omega_{2}^{solute}}({\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent}) \\
-\vdots \\
-m_{N}^{solute} = {\omega_{N}^{solute}}({\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent})
-\end{cases}
-$$
+![微信截图_20210407200549](https://user-images.githubusercontent.com/53797732/113863863-c3e38800-97dc-11eb-8d43-74a9794c446a.png)
 
 把上面的方程组写成向量形式，则有
 
-$$
-{\left[ \begin{array}{ccc}
-m_{1}^{solute} \\
-m_{2}^{solute} \\
-\vdots \\
-m_{N}^{solute}
-\end{array}
-\right]}
-=
-{\left[ \begin{array}{ccc}
-{\omega_{1}^{solute}} \\
-{\omega_{2}^{solute}} \\
-\vdots \\
-{\omega_{N}^{solute}}
-\end{array}
-\right]}
-\times{({\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent})}
-$$
+![微信截图_20210407200605](https://user-images.githubusercontent.com/53797732/113863875-c80fa580-97dc-11eb-9051-0c150a56a6d5.png)
 
 为了方便运算，我们可以设
 
-$$
-\hat{M} = {\left[ \begin{array}{ccc}
-m_{1}^{solute} \\
-m_{2}^{solute} \\
-\vdots \\
-m_{N}^{solute}
-\end{array}
-\right]}
-,
-\hat{\Omega} = {\left[ \begin{array}{ccc}
-{\omega_{1}^{solute}} \\
-{\omega_{2}^{solute}} \\
-\vdots \\
-{\omega_{N}^{solute}}
-\end{array}
-\right]}
-$$
+
 
 同时设一个N维向量$\hat{\sigma} = [1, 1, 1, \cdots, 1]^{T}$，那么我们可以得到以下关系
 
