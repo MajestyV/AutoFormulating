@@ -18,5 +18,5 @@ $$\begin{cases}
 m_{1}^{solute} = {\omega_{1}^{solute}}({\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent}) \\
 m_{1}^{solute} = {\omega_{1}^{solute}}({\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent}) \\
 \vdots \\
-m_{N}^{solute} = {\omega_{N}^{solute}}({\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent}) \\
+m_{N}^{solute} = {\omega_{N}^{solute}}({\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent})
 \end{cases}$$
