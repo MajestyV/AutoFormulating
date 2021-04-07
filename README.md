@@ -9,4 +9,11 @@
 此函数的原理为：
 
 假设我们的墨水体系有$[1,2,3,......,N]$这$N$种溶质，以及$[1,2,3,......,M]$这$M$种溶剂组成。那么墨水的总质量可以写为
-$$ m_{tot} = {\sum_{i}^{N}}{m_{i}^{solute}}+{\sum_{j}^{M}}{m_{j}^{solvent}} $$
+
+$$ m_{tot} = {\sum_{i}^{N}}{m_{i}^{solute}}+{\sum_{j}^{M}}{m_{j}^{solvent}} = {\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent} $$
+
+根据质量百分浓度的定义，对于溶质$i$，有${\omega_{i}^{solute}} = \frac{m_{i}^{solute}}{m_{tot}}$，那么我们就可以得到下列方程组
+
+$$ \begin{cases}
+\m_{1}^{solute} = {\omega_{1}^{solute}}({\sum_{1}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent}) \\
+\end{cases}$$
