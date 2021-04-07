@@ -16,7 +16,8 @@ $$ m_{tot} = {\sum_{i}^{N}}{m_{i}^{solute}}+{\sum_{j}^{M}}{m_{j}^{solvent}} = {\
 
 $$\begin{cases}
 m_{1}^{solute} = {\omega_{1}^{solute}}({\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent}) \\
-m_{1}^{solute} = {\omega_{1}^{solute}}({\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent}) \\
+m_{2}^{solute} = {\omega_{2}^{solute}}({\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent}) \\
 \vdots \\
 m_{N}^{solute} = {\omega_{N}^{solute}}({\sum_{i}^{N}}{m_{i}^{solute}}+m_{tot}^{solvent})
-\end{cases}$$
+\end{cases}
+$$
