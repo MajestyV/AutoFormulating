@@ -1,6 +1,6 @@
 import numpy as np
 
-class Ink:
+class formula:
     """ This code is designed for calculating the amount of materials required for specific ink. """
 
     # 输入格式 solvent = [[溶剂1的体积，溶剂1的密度],[溶剂2的体积，溶剂2的密度], ......]
@@ -35,5 +35,5 @@ class Ink:
 
 
 if __name__ == '__main__':
-    ink = Ink([[20,0.945]])
+    ink = formula([[20,0.945]])
     print(ink.GetSoluteMass([5.0],'mg'))
